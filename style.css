@@ -139,5 +139,45 @@ to me
   font-size: 14px;
   font-weight: bold;
 }
+#contact {
+  margin-top: 80px;
+  padding: 60px 40px;
+  text-align: center;
+  background-color: #2563EB;
+  color: white;
+}
+
+#contact h2 {
+  font-size: 32px;
+  color: white;
+  margin-bottom: 16px;
+}
+
+#contact p {
+  font-size: 16px;
+  color: #e0e7ff;
+  margin-bottom: 30px;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.contact-links a {
+  background-color: white;
+  color: #2563EB;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.contact-links a:hover {
+  background-color: #e0e7ff;
+}
 
 
